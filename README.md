@@ -20,7 +20,7 @@
 
 ### 支持的格式
 
-- [x] QQ 音乐 (.qmc0/.qmc2/.qmc3/.qmcflac/.qmcogg/.tkm)
+- [x] QQ 音乐 (.qmc0/.qmc2/.qmc3/.qmcflac/.qmcogg/.tkm) **仅支持PC端19.51之前版本, 此版本[下载](https://www.123912.com/s/6a0Bjv-lRLzv)**
 - [x] Moo 音乐格式 (.bkcmp3/.bkcflac/...)
 - [x] QQ 音乐 Tm 格式 (.tm0/.tm2/.tm3/.tm6)
 - [x] QQ 音乐新格式 (.mflac/.mgg/.mflac0/.mgg1/.mggl)
@@ -28,7 +28,7 @@
 - [x] 网易云音乐格式 (.ncm)
 - [x] 虾米音乐格式 (.xm)
 - [x] 酷我音乐格式 (.kwm)
-- [x] 酷狗音乐格式 (.kgm/.vpr)
+- [x] 酷狗音乐格式 (.kgm/.vpr) **仅支持PC端10.250之前版本, 此版本[下载](https://www.123912.com/s/6a0Bjv-7RLzv)**
 - [x] Android 版喜马拉雅文件格式 (.x2m/.x3m)
 - [x] 咪咕音乐格式 (.mg3d)
 

@@ -141,4 +141,28 @@ audio{
   }
 }
 
+.block{
+  display: block;
+}
+.info-container{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 20px;
+}
+.info-box{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  padding: 10px;
+}
+.info-item{
+  width: 100px;
+}
+.blue{
+  color: #1db1ff;
+}
+a{
+  color: #85ce61;
+}
+
 @import "dark-mode"; // dark-mode 放在 normal 后面，以获得更高优先级

@@ -1,5 +1,27 @@
 <template>
   <el-container id="app">
+    <div class="info-container">
+      <div>
+        <h2 class="blue">目前支持</h2>
+        <div class="support-body">
+          <div class="info-box">
+            <strong class="block info-item">网易云音乐(ncm)</strong>
+            <strong class="block info-item">QQ音乐(qmc, mflac, mgg) -
+              <a target="_blank" href="https://www.123912.com/s/6a0Bjv-lRLzv">PC端19.51</a>之前版本
+            </strong>
+            <strong class="block info-item">酷狗音乐(kgm) -
+              <a target="_blank" href="https://www.123912.com/s/6a0Bjv-7RLzv">PC端10.250</a>之前版本
+            </strong>
+            <strong class="block info-item">虾米音乐(xm)</strong>
+            <strong class="block info-item">酷我音乐(.kwm)</strong>
+          </div>
+          <a href="https://git.unlock-music.dev/um/web/src/branch/master/README.md" target="_blank">更多</a>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="blue">音乐解锁</h1>
+
     <el-main>
       <Home />
     </el-main>
@@ -9,10 +31,7 @@
         ：移除已购音乐的加密保护。
         <a href="https://git.unlock-music.dev/um/web/wiki/使用提示" target="_blank">使用提示</a>
       </div>
-      <div>
-        目前支持 网易云音乐(ncm), QQ音乐(qmc, mflac, mgg), 酷狗音乐(kgm), 虾米音乐(xm), 酷我音乐(.kwm)
-        <a href="https://git.unlock-music.dev/um/web/src/branch/master/README.md" target="_blank">更多</a>。
-      </div>
+
       <div>
         <!--如果进行二次开发，此行版权信息不得移除且应明显地标注于页面上-->
         <span>Copyright &copy; 2019 - {{ new Date().getFullYear() }} MengYX</span>
