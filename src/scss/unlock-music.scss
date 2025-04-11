@@ -145,8 +145,8 @@ audio{
   display: block;
 }
 .info-container{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding-bottom: 20px;
+  //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 30px;
 }
 .info-box{
   display: flex;
@@ -157,12 +157,25 @@ audio{
 }
 .info-item{
   width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .blue{
-  color: #1db1ff;
+  color: #46a0d3;
+}
+.blue2{
+  color: #87c2ae;
 }
 a{
-  color: #85ce61;
+  color: #9fda7f;
+}
+ul{
+  margin: 0 0 0 35px;
+  padding: 0;
+  //padding-left: 10px;
+  text-align: left;
 }
 
 @import "dark-mode"; // dark-mode 放在 normal 后面，以获得更高优先级

@@ -5,15 +5,45 @@
         <h2 class="blue">目前支持</h2>
         <div class="support-body">
           <div class="info-box">
-            <strong class="block info-item">网易云音乐(ncm)</strong>
-            <strong class="block info-item">QQ音乐(qmc, mflac, mgg) -
-              <a target="_blank" href="https://www.123912.com/s/6a0Bjv-lRLzv">PC端19.51</a>之前版本
-            </strong>
-            <strong class="block info-item">酷狗音乐(kgm) -
-              <a target="_blank" href="https://www.123912.com/s/6a0Bjv-7RLzv">PC端10.250</a>之前版本
-            </strong>
-            <strong class="block info-item">虾米音乐(xm)</strong>
-            <strong class="block info-item">酷我音乐(.kwm)</strong>
+            <div class="block info-item">
+              <strong class="blue2">网易云音乐</strong>
+              <ul>
+                <li>ncm</li>
+              </ul>
+            </div>
+
+            <div class="block info-item">
+              <strong class="blue2">QQ音乐</strong>
+              <ul>
+                <li>qmc</li>
+                <li>mflac</li>
+                <li>mgg</li>
+              </ul>
+              < <a target="_blank" href="https://www.123912.com/s/6a0Bjv-lRLzv">PC端19.51</a>
+            </div>
+
+            <div class="block info-item">
+              <strong class="blue2">酷狗音乐</strong>
+              <ul>
+                <li>kgm</li>
+              </ul>
+              < <a target="_blank" href="https://www.123912.com/s/6a0Bjv-7RLzv">PC端10.250</a>
+            </div>
+
+            <div class="block info-item">
+              <strong class="blue2">虾米音乐</strong>
+              <ul>
+                <li>xm</li>
+              </ul>
+            </div>
+
+            <div class="block info-item">
+              <strong class="blue2">酷我音乐</strong>
+              <ul>
+                <li>kwm</li>
+              </ul>
+            </div>
+
           </div>
           <a href="https://git.unlock-music.dev/um/web/src/branch/master/README.md" target="_blank">更多</a>
         </div>
