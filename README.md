@@ -54,15 +54,16 @@
 ### 自行构建
 
 - 环境要求
-  - nodejs (v16.x)
+  - Node.js 22.x
   - npm
 
 1. 获取项目源代码后安装相关依赖：
 
    ```sh
-   npm install
    npm ci
    ```
+
+   请保留 [vendor 中的 JOOX 本地包](vendor/unlock-music-joox-crypto-0.0.1.tgz)，依赖安装不再访问 Gitea 软件包源。开发启动需要完整的开发依赖；若出现 `vue-cli-service: command not found`，请先完成 `npm ci`。安装后也可以用 `yarn serve` 启动，但依赖版本以 `package-lock.json` 为准。
 
 2. 然后进行构建：
 
